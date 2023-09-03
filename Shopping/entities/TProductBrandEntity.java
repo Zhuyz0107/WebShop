@@ -1,0 +1,13 @@
+package cn.gary.entities;
+
+import lombok.Data;
+
+import java.sql.Timestamp;
+/**
+ * t_product-brand
+ */
+@Data
+public class TProductBrandEntity {
+    private Integer brandid;
+    private Integer brandname;
+}
